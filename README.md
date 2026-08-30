@@ -4,13 +4,13 @@
 
 # Hi, I'm ZorIgn 👋
 
-**构建能落地、可验证、可审计的 AI 与自动化系统。**
+**专注构建可落地、可验证、可审计的 AI 与自动化系统。**
 
-从教务知识 RAG、多智能体申请辅助，到市场分析、库存履约和工程自动化。
+从教务知识 RAG、多智能体申请辅助，到市场与风险分析、库存履约、Agent Skills 和工程自动化。
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ZorIgn&style=flat-square&color=00A8E8)](https://github.com/ZorIgn)
 [![GitHub followers](https://img.shields.io/github/followers/ZorIgn?style=flat-square&logo=github&label=Followers)](https://github.com/ZorIgn?tab=followers)
-[![Repositories](https://img.shields.io/badge/Public%20Projects-8-6C5CE7?style=flat-square)](https://github.com/ZorIgn?tab=repositories)
+[![Repositories](https://img.shields.io/badge/Public%20Projects-11-6C5CE7?style=flat-square)](https://github.com/ZorIgn?tab=repositories)
 
 </div>
 
@@ -22,6 +22,7 @@
 | [`HarborPilot-MultiAgent`](https://github.com/ZorIgn/HarborPilot-MultiAgent) | **AGENT** | 港新硕士申请辅助平台，强调字段级来源、人工审核和可信度门禁 |
 | [`CS2_trade`](https://github.com/ZorIgn/CS2_trade) | **ANALYZE** | CS2 炼金概率、实时行情、T+7 预测、EV 与尾部风险分析 |
 | [`xianyu-codex-commerce-suite`](https://github.com/ZorIgn/xianyu-codex-commerce-suite) | **FULFILL** | 闲鱼消息、订单、库存出库、自动发货与激活审计的一体化工程 |
+| [`codexpool.skill`](https://github.com/ZorIgn/codexpool.skill) | **DEPLOY** | 面向 Agent 的 Codex 本地号池与公网中转部署 Skill，覆盖路线选择、验收、维护与逐跳排障 |
 
 ## 🧭 Project map
 
@@ -32,6 +33,7 @@ flowchart LR
     M[Market Analytics] --> C[CS2 Trade Lab]
     M --> P[Stock Prediction]
     U[Automation] --> X[Xianyu Commerce Suite]
+    U --> D[Codex Pool Skill]
     U --> O[OAuth Supply Tool]
     C --> L[Legacy CSGO Calculator]
 ```
@@ -65,6 +67,7 @@ flowchart LR
 | Module | Purpose |
 | --- | --- |
 | [`xianyu-codex-commerce-suite`](https://github.com/ZorIgn/xianyu-codex-commerce-suite) | 消息、订单、库存、自动发货与激活状态机 |
+| [`codexpool.skill`](https://github.com/ZorIgn/codexpool.skill) | Codex 本地号池与公网中转的部署、验收、维护与逐跳排障 Skill |
 | [`codex-oauth-auto-register`](https://github.com/ZorIgn/codex-oauth-auto-register) | 账号导入/注册、OAuth 验证、接码轮询与 CPA 导出 |
 
 </details>
@@ -91,6 +94,18 @@ flowchart LR
 <img width="100%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=ZorIgn&theme=github_dark" alt="ZorIgn profile details">
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=ZorIgn&theme=github_dark" alt="ZorIgn GitHub stats">
 <img height="165" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=ZorIgn&theme=github_dark" alt="ZorIgn repositories per language">
+
+</div>
+
+## 🐍 Contribution trail
+
+<div align="center">
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ZorIgn/ZorIgn/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ZorIgn/ZorIgn/output/github-contribution-grid-snake.svg" />
+  <img width="100%" alt="ZorIgn GitHub contribution grid snake animation" src="https://raw.githubusercontent.com/ZorIgn/ZorIgn/output/github-contribution-grid-snake.svg" />
+</picture>
 
 </div>
 
