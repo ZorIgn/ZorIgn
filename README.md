@@ -10,7 +10,7 @@
 
 [![Profile Views](https://komarev.com/ghpvc/?username=ZorIgn&style=flat-square&color=00A8E8)](https://github.com/ZorIgn)
 [![GitHub followers](https://img.shields.io/github/followers/ZorIgn?style=flat-square&logo=github&label=Followers)](https://github.com/ZorIgn?tab=followers)
-[![Repositories](https://img.shields.io/badge/Public%20Projects-11-6C5CE7?style=flat-square)](https://github.com/ZorIgn?tab=repositories)
+[![Repositories](https://img.shields.io/badge/Public%20Projects-12-6C5CE7?style=flat-square)](https://github.com/ZorIgn?tab=repositories)
 
 </div>
 
@@ -20,6 +20,7 @@
 | --- | --- | --- |
 | [`swufe-rag`](https://github.com/ZorIgn/swufe-rag) | **VERIFY** | SQL + RAG 教务知识系统，让课程、学分和制度答案回到原文件与页码 |
 | [`HarborPilot-MultiAgent`](https://github.com/ZorIgn/HarborPilot-MultiAgent) | **AGENT** | 港新硕士申请辅助平台，强调字段级来源、人工审核和可信度门禁 |
+| [`sub-antigravity`](https://github.com/ZorIgn/sub-antigravity) | **DELEGATE** | 把本机 Antigravity CLI 作为子代理接入 Codex、Hermes 等 MCP Harness |
 | [`CS2_trade`](https://github.com/ZorIgn/CS2_trade) | **ANALYZE** | CS2 炼金概率、实时行情、T+7 预测、EV 与尾部风险分析 |
 | [`xianyu-codex-commerce-suite`](https://github.com/ZorIgn/xianyu-codex-commerce-suite) | **FULFILL** | 闲鱼消息、订单、库存出库、自动发货与激活审计的一体化工程 |
 | [`codexpool.skill`](https://github.com/ZorIgn/codexpool.skill) | **DEPLOY** | 面向 Agent 的 Codex 本地号池与公网中转部署 Skill，覆盖路线选择、验收、维护与逐跳排障 |
@@ -30,6 +31,7 @@
 flowchart LR
     K[Knowledge] --> S[swufe-rag]
     A[Agents] --> H[HarborPilot]
+    A --> G[sub-antigravity]
     M[Market Analytics] --> C[CS2 Trade Lab]
     M --> P[Stock Prediction]
     U[Automation] --> X[Xianyu Commerce Suite]
@@ -47,6 +49,7 @@ flowchart LR
 | --- | --- |
 | [`swufe-rag`](https://github.com/ZorIgn/swufe-rag) | 可验证的教务问答、学业审计与原文引用 |
 | [`HarborPilot-MultiAgent`](https://github.com/ZorIgn/HarborPilot-MultiAgent) | 可信多智能体申请规划、来源采集与文书工作台 |
+| [`sub-antigravity`](https://github.com/ZorIgn/sub-antigravity) | 通过 MCP 和 Direct CLI 调用本机 Antigravity 子代理 |
 
 </details>
 
